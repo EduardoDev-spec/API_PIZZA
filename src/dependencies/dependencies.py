@@ -3,7 +3,7 @@ from fastapi import Depends
 from sqlalchemy.orm import sessionmaker, Session
 from src.models.models import User
 from jose import jwt, JWTError
-from main import SECRET_KEY, ALGORITHM
+
 
 
 def get_session():
