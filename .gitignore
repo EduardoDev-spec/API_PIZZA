@@ -1,0 +1,22 @@
+# Ambiente Virtual
+.venv/
+env/
+venv/
+ENV/
+
+# Python (Cache)
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variáveis de Ambiente (Segurança)
+.env
+
+# Banco de Dados Local
+*.db
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
